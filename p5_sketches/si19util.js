@@ -106,6 +106,7 @@ function makeGate(sprite, xMove, yMove)
   sprite.gateOpen = false;
   sprite.fullGateOffset = createVector(xMove, yMove);
   sprite.basePosition = createVector(sprite.position.x, sprite.position.y);
+  sprite.gateSpeed = 10;
   //sprite.currentGateOffset = createVector(0,0);
 
 var oldDraw = sprite.draw;
@@ -113,13 +114,13 @@ var oldDraw = sprite.draw;
   {
     if (sprite.gateOpen)
     {
-        sprite.position.x = moveTowards(sprite.position.x, sprite.basePosition.x + sprite.fullGateOffset.x, 1);
-        sprite.position.y = moveTowards(sprite.position.y, sprite.basePosition.y + sprite.fullGateOffset.y, 1);
+        sprite.position.x = moveTowards(sprite.position.x, sprite.basePosition.x + sprite.fullGateOffset.x, sprite.gateSpeed);
+        sprite.position.y = moveTowards(sprite.position.y, sprite.basePosition.y + sprite.fullGateOffset.y, sprite.gateSpeed);
     }
     else
     {
-      sprite.position.x = moveTowards(sprite.position.x, sprite.basePosition.x, 1);
-      sprite.position.y = moveTowards(sprite.position.y, sprite.basePosition.y, 1);
+      sprite.position.x = moveTowards(sprite.position.x, sprite.basePosition.x, sprite.gateSpeed);
+      sprite.position.y = moveTowards(sprite.position.y, sprite.basePosition.y, sprite.gateSpeed);
     }
     oldDraw.call(sprite);
   }

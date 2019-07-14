@@ -54,11 +54,11 @@ gate4.gateOpen = !gate1.gateOpen;
   gate4 = createSprite(450,100, 300, 32);
 
 
-makeGate(gate1, -32, 0);
-makeGate(gate2, 32, 0);
+makeGate(gate1, -100, 0);
+makeGate(gate2, 100, 0);
 
-makeGate(gate3, -32, 0);
-makeGate(gate4, 32, 0);
+makeGate(gate3, -100, 0);
+makeGate(gate4, 100, 0);
 
 gate3.gateOpen = true;
 gate4.gateOpen = true;
