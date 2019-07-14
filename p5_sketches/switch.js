@@ -9,8 +9,11 @@ function setup()
   createCanvas(600,400);
   player = createSprite(50,50, 32,32);
   gate1 = createSprite(150,200, 300, 32);
+
   gate2 = createSprite(450,200, 300, 32);
 
+makeGate(gate1, -32, 0);
+makeGate(gate2, 32, 0);
   buttonGroup = new Group();
 
   button = createSprite(200, 75, 35,35);
@@ -37,34 +40,26 @@ function draw()
     if (button.held)
     {
       button.shapeColor = color('green');
-      gate1.position.x--;
-      gate2.position.x++;
+      //gate1.position.x--;
+      //gate2.position.x++;
+      gate1.gateOpen = true;
+      gate2.gateOpen = true;
     }
     else {
       button.shapeColor = color('red');
-      gate1.position.x++;
-      gate2.position.x--;
+      gate1.gateOpen = false;
+      gate2.gateOpen = false;
+      //gate1.position.x++;
+      //gate2.position.x--;
     }
     let openAmt = 150;
-    gate1.position.x = constrain(gate1.position.x, 150-openAmt, 150);
-    gate2.position.x = constrain(gate2.position.x, 450,450+openAmt);
+    //gate1.position.x = constrain(gate1.position.x, 150-openAmt, 150);
+    //gate2.position.x = constrain(gate2.position.x, 450,450+openAmt);
 
   buttons();
   drawSprites();
-
-  /*var teleporterNumber = 0;
-  teleporterGroup.forEach(function(teleporter01)
-  {
-    teleporterNumber++;
-  fill(255);
-  stroke(1);
-  textAlign(RIGHT,CENTER);
-  text("Teleporter " + teleporterNumber, teleporter01.position.x, teleporter01.position.y);
-
-  textAlign(LEFT,CENTER);
-  text("<-- teleporter destination "+ teleporterNumber, teleporter01.destination.x, teleporter01.destination.y);
-});*/
 }
+
 
 function buttons()
 {

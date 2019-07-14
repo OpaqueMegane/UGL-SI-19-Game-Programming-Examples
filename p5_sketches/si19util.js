@@ -100,3 +100,43 @@ class TiledLevel
       }
     }
 }
+
+function makeGate(sprite, xMove, yMove)
+{
+  sprite.gateOpen = false;
+  sprite.fullGateOffset = createVector(xMove, yMove);
+  sprite.basePosition = createVector(sprite.position.x, sprite.position.y);
+  //sprite.currentGateOffset = createVector(0,0);
+
+var oldDraw = sprite.draw;
+  var nuDraw =function()
+  {
+    if (sprite.gateOpen)
+    {
+        sprite.position.x = moveTowards(sprite.position.x, sprite.basePosition.x + sprite.fullGateOffset.x, 1);
+        sprite.position.y = moveTowards(sprite.position.y, sprite.basePosition.y + sprite.fullGateOffset.y, 1);
+    }
+    else
+    {
+      sprite.position.x = moveTowards(sprite.position.x, sprite.basePosition.x, 1);
+      sprite.position.y = moveTowards(sprite.position.y, sprite.basePosition.y, 1);
+    }
+    oldDraw.call(sprite);
+  }
+  sprite.draw = nuDraw;
+  return sprite;
+}
+
+function moveTowards(val, target, maxSpeed)
+{
+
+  if (val < target)
+  {
+    return Math.min(val + maxSpeed, target);
+  }
+  else if (val > target)
+  {
+    return Math.max(val - maxSpeed, target);
+  }
+  return val;
+}
