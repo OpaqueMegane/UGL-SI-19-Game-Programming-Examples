@@ -1,0 +1,5338 @@
+{
+  "w": 16,
+  "h": 200,
+  "tiles": [
+    [
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 1,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 1,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 1,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 1,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      {
+        "type": "DECO",
+        "textureIdx": 0,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "type": "WALL",
+        "textureIdx": 2,
+        "custom": ""
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ]
+}
