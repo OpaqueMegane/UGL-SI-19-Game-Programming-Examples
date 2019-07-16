@@ -32,14 +32,22 @@ function resetCamera()
 
 class TiledLevel
 {
-  constructor(jsonLevel)
+  constructor(levelFile)
   {
     this.w = 0;
     this.h = 0;
     this.TILE_SZ = 40;
     this.tiles= {};
+    this.hello = "hello";
+    loadJSON(levelFile, this.applyJson.bind(this));
+  }
+  
+  applyJson(jsonLevel)
+  {
+    console.log(this + "   "+  this.hello);
     Object.assign(this, jsonLevel);
   }
+
   gridToPixelPosition(gridX, gridY)
   {
     var ret = createVector((gridX + .5) * this.TILE_SZ,(gridY + .5) * this.TILE_SZ);

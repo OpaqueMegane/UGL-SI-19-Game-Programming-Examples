@@ -11,7 +11,8 @@ var alive = true;
 
 function preload()
 {
-  levelJson = loadJSON('endless_runner_level_1.txt');
+  //levelJson = loadJSON('endless_runner_level_1.txt');
+  levelMap = new TiledLevel('endless_runner_level_1.txt');
   console.log(levelMap.tiles);
   //loadMapFromFile('endless_runner_level_1.txt');
 }
@@ -21,7 +22,7 @@ function setup()
   createCanvas(600,400);
   wallGroup = new Group();
   player = createSprite(150,50, 16,32);
-  levelMap = new TiledLevel(levelJson);
+  //levelMap = new TiledLevel(levelJson);
     //player.setCollider("circle", 0,12, 10,10);//,0,12,20,20);
   //player.setCollider("circle");
 
