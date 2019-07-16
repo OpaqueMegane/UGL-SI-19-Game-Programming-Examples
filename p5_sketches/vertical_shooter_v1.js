@@ -23,7 +23,6 @@ var peaShooter = [];
 
 var currentWeaponIdx = 0;
 var moveAngle = 270;
-var jsonLevel;
 var score = 0;
 var hp = 5;
 var invincibleCounter = 0;
@@ -62,7 +61,7 @@ peaShooter.triggerHeld = function(){};
 let mapUrl = 'topdown_level.txt';
 
 let url ='topdown_level.txt';
-jsonLevel = loadJSON('vertical_shooter_level.txt');//'vertical_shooter_level.txt');
+levelMap = new TiledLevel('vertical_shooter_level.txt');
 
 
 
@@ -73,8 +72,6 @@ function setup()
 {
   createCanvas(1200,600);
 
-console.log(jsonLevel.w + "???");
-levelMap = new TiledLevel(jsonLevel);
 levelMap.TILE_SZ = 50;
 populateWalls(levelMap, wallGroup);
 addSideWalls(levelMap, wallGroup);

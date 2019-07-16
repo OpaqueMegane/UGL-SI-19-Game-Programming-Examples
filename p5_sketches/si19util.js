@@ -38,13 +38,11 @@ class TiledLevel
     this.h = 0;
     this.TILE_SZ = 40;
     this.tiles= {};
-    this.hello = "hello";
     loadJSON(levelFile, this.applyJson.bind(this));
   }
-  
+
   applyJson(jsonLevel)
   {
-    console.log(this + "   "+  this.hello);
     Object.assign(this, jsonLevel);
   }
 
@@ -56,8 +54,6 @@ class TiledLevel
 
   getGroup(tileId)
   {
-
-    console.log("XXXX " + this.w);
       var retGroup = new Group();
 
       var TILE_SZ = this.TILE_SZ;
@@ -77,9 +73,6 @@ class TiledLevel
               {
                 retGroup.add(createSprite(xi * TILE_SZ, yi*TILE_SZ,TILE_SZ,TILE_SZ));
               }
-              //print(":!"+xi + ", " +yi);
-
-
             }
           }
         }
