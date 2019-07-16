@@ -2,8 +2,7 @@ var player;
 
 var teleporterGroup;
 var wallGroup;
-var levelMap;
-var levelJson;
+var level;
 
 var chaserKiller;
 
@@ -11,24 +10,18 @@ var alive = true;
 
 function preload()
 {
-  //levelJson = loadJSON('endless_runner_level_1.txt');
-  levelMap = new TiledLevel('endless_runner_level_1.txt');
-  console.log(levelMap.tiles);
-  //loadMapFromFile('endless_runner_level_1.txt');
+  level = new TiledLevel("endless_runner_level.txt");
 }
 
 function setup()
 {
   createCanvas(600,400);
-  wallGroup = new Group();
   player = createSprite(150,50, 16,32);
-  //levelMap = new TiledLevel(levelJson);
     //player.setCollider("circle", 0,12, 10,10);//,0,12,20,20);
   //player.setCollider("circle");
 
   player.jumpCount = 1;
-  populateWalls(levelMap, wallGroup);
-
+  wallGroup = level.getWallGroup();//populateWalls(level, wallGroup);
 
 
 

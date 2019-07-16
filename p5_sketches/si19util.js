@@ -1,29 +1,3 @@
-
-function addSideWalls(levelMap, wallGroup)
-{
-  var ul =levelMap.gridToPixelPosition(-1.5,-1.5);
-  var lr =levelMap.gridToPixelPosition(levelMap.w + 1.5,levelMap.h + 1.5);
-  wallGroup.add(createSprite(ul.x, (ul.y + lr.y) /2, levelMap.TILE_SZ, lr.y - ul.y));
-  wallGroup.add(createSprite(lr.x, (ul.y + lr.y) /2, levelMap.TILE_SZ, lr.y - ul.y));
-
-  wallGroup.add(createSprite(
-    (ul.x + lr.x) /2, ul.y,
-   lr.x - ul.x, levelMap.TILE_SZ));
-
-   wallGroup.add(createSprite(
-     (ul.x + lr.x) /2, lr.y,
-    lr.x - ul.x, levelMap.TILE_SZ));
-}
-
-function populateWalls(levelMap, wallGroup)
-{
-  levelMap.populateWalls(wallGroup);
-}
-function textIgnoreCamera(txt, x, y, x2, y2)
-{
-  text(txt, x + camera.position.x - width/2, y+ camera.position.y - height/2, x2, y2);
-}
-
 function resetCamera()
 {
   camera.position.x = width/2;
@@ -63,7 +37,6 @@ class TiledLevel
           console.log("xi" + xi);
           for (var yi = 0; yi < this.h; yi++)
           {
-            //
             var mabyeTile = this.tiles[xi][yi];
 
             if (mabyeTile  )//maybeTile != null && maybeTile != undefined)
@@ -80,8 +53,9 @@ class TiledLevel
 
   }
 
-  populateWalls(wallGroup)
+  getWallGroup()
   {
+    wallGroup = new Group();
     var TILE_SZ = this.TILE_SZ;
 
       for (var xi =0; xi < this.w; xi++)
@@ -99,6 +73,23 @@ class TiledLevel
           }
         }
       }
+      return wallGroup;
+    }
+
+    addSideWalls(wallGroup)
+    {
+      var ul = this.gridToPixelPosition(-1.5,-1.5);
+      var lr = this.gridToPixelPosition(this.w + 1.5,this.h + 1.5);
+      wallGroup.add(createSprite(ul.x, (ul.y + lr.y) /2, this.TILE_SZ, lr.y - ul.y));
+      wallGroup.add(createSprite(lr.x, (ul.y + lr.y) /2, this.TILE_SZ, lr.y - ul.y));
+
+      wallGroup.add(createSprite(
+        (ul.x + lr.x) /2, ul.y,
+       lr.x - ul.x, this.TILE_SZ));
+
+       wallGroup.add(createSprite(
+         (ul.x + lr.x) /2, lr.y,
+        lr.x - ul.x, this.TILE_SZ));
     }
 }
 
