@@ -2,13 +2,14 @@ var player;
 var moveAngle = 0; //default to right
 
 var walls;
-var collectibles;
+var collectibleGroup;
 var bulletGroup;
 var enemyGroup;
 var curMap;
+
 function preload()
 {
-  curMap = new TiledLevel('topdown_level.txt');
+  curMap = new TiledLevel('simple_level.txt');
 }
 
 function setup() {
@@ -18,28 +19,38 @@ function setup() {
 
 
   useQuadTree(false);
-  collectibles = new Group();
+  collectibleGroup = curMap.getGroup("item 1");
+  var collectibleAnim = loadAnimation("assets/item/1.png","assets/item/2.png");
+collectibleGroup.forEach(function(c){
+  var cc = collectibleAnim.clone();
+  cc.frameDelay = floor(random(4,8));
+  c.addAnimation("xxx", cc);
+  c.scale = .5;
+  //c.animation.setCycles(floor(random(0, 120))); ///hack to randomize animation
+})
 
-
-  //collectibles.add(createSprite(50,350, 16,16));
-  //create 3 enemies
-  //createEnemy(200, 200);
-  //createEnemy(250, 200);
-  //createEnemy(300, 200);
 
 
   player = createSprite(50,75, 32,32);
-
+  player.scale = .5;
+  var moveAnim = loadAnimation("assets/move/1.png","assets/move/2.png" ,"assets/move/3.png","assets/move/4.png","assets/move/5.png");
+  moveAnim.frameDelay = 3;
+var idleAnim = loadAnimation("assets/idle/1.png","assets/idle/2.png" ,"assets/idle/3.png");
+idleAnim.frameDelay = 7;
+player.addAnimation("idle", idleAnim);
+player.addAnimation("move", moveAnim);
 
   walls = curMap.getWallGroup();
 
-  //walls.add(createSprite(150,125, 64,128));
-  //walls.add(createSprite(250,125, 64,128));
-  //walls.add(createSprite(250,325, 64,64));
-  for(var i =0; i < walls.length; i++)
-  {
-    walls[i].immovable = true;
-  }
+  var brickImg = loadImage("assets/walls/brick.png");
+  walls.forEach(function(wall){
+
+    wall.addImage("xx", brickImg);
+    wall.scale = .5;
+    wall.immovable = true;
+  });
+
+
 
 
   createCanvas(800, 800);
@@ -82,6 +93,7 @@ function draw() {
     bulletGroup.add(freshBullet);
   }
   bulletGroup.overlap(enemyGroup, bulletOverlapsEnemy);
+  player.overlap(collectibleGroup, playerTouchesCollectible);
 
   //bulletGroup.bounce(walls);//, function(b, w){b.remove();});
 
@@ -155,24 +167,39 @@ function shootBullet()
 function playerMovement()
 {
   var speed = 3;
+  var moving = false;
   if (keyDown('d')) {
     player.position.x = player.position.x + speed;
     moveAngle = 0;
+    moving = true;
+    player.mirrorX(1);
   }
 
   if (keyDown('a')) {
     player.position.x = player.position.x - speed;
     moveAngle = 180;
+    moving = true;
+    player.mirrorX(-1);
   }
 
   if (keyDown('w')) {
     player.position.y = player.position.y - speed;
     moveAngle = 270;
+    moving = true;
   }
 
     if (keyDown('s')) {
     player.position.y = player.position.y + speed;
       moveAngle = 90;
+      moving = true;
+  }
+
+  if (moving)
+  {
+    player.changeAnimation("move");
+  }
+  else {
+    player.changeAnimation("idle");
   }
 }
 
