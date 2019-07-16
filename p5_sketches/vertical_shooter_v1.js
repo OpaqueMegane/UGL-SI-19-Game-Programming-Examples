@@ -38,7 +38,6 @@ function preload()
 frameRate(60);
  explosion1 = loadAnimation("explosion/1.png","explosion/2.png","explosion/3.png","explosion/4.png");
  explosion1.frameDelay  = 2;
-  wallGroup = new Group();
   bulletGroup = new Group();
 
   loopyBulletGroup = new Group();
@@ -63,9 +62,6 @@ let mapUrl = 'topdown_level.txt';
 let url ='topdown_level.txt';
 levelMap = new TiledLevel('vertical_shooter_level.txt');
 
-
-
-
 }
 
 function setup()
@@ -73,8 +69,8 @@ function setup()
   createCanvas(1200,600);
 
 levelMap.TILE_SZ = 50;
-populateWalls(levelMap, wallGroup);
-addSideWalls(levelMap, wallGroup);
+wallGroup = levelMap.getWallGroup();
+levelMap.addSideWalls(wallGroup);
 enemyGroup = levelMap.getGroup();
 
 

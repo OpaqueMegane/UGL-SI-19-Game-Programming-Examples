@@ -29,9 +29,11 @@ class TiledLevel
 
   getGroupGeneric(role, swatchName)
   {
+
     var retGroup = new Group();
     var TILE_SZ = this.TILE_SZ;
-    var swatchSource = role === "WALL" ? this.swatches.wall : this.swatches.other;
+    //console.log("---"+this.swatches["WALL"]);
+    var swatchSource = this.swatches[role];
       for (var xi =0; xi < this.w; xi++)
       {
         for (var yi = 0; yi < this.h; yi++)
@@ -41,16 +43,20 @@ class TiledLevel
           if (mabyeTile  )//maybeTile != null && maybeTile != undefined)
           {
             let tilesSwatchName = null;
-            if (swatchSource[mabyeTile.textureIdx])
+            if (swatchSource[mabyeTile.tileSwatchIdx])
             {
-              tilesSwatchName = swatchSource[mabyeTile.textureIdx].name;
+              tilesSwatchName = swatchSource[mabyeTile.tileSwatchIdx].name;
             }
 
-            if (mabyeTile.type === role && (!swatchName || swatchName === tilesSwatchName))
+            if (mabyeTile.tileType === role && (!swatchName || swatchName === tilesSwatchName))
             {
               var s = createSprite(xi * TILE_SZ, yi*TILE_SZ,TILE_SZ,TILE_SZ);
-              s.levelSwatchIdx = mabyeTile.textureIdx;
-              s.levelCustomData = mabyeTile.custom;
+              s.tileSwatchIdx = mabyeTile.tileSwatchIdx;
+              if(mabyeTile.tileCustomData)
+              {
+                s.tileCustomData = mabyeTile.tileCustomData;
+              }
+
               //s.levelSwatch = swatchSource[mabyeTile.textureIdx];
               retGroup.add(s);
             }
@@ -63,14 +69,14 @@ class TiledLevel
   getGroup(tileType)
   {
 
-    return this.getGroupGeneric("DECO", tileType);
+    return this.getGroupGeneric("OTHER", tileType);
 
 
 
   }
 
-  getWallGroup()
-  {
+    getWallGroup()
+    {
       return this.getGroupGeneric("WALL", null);
     }
 

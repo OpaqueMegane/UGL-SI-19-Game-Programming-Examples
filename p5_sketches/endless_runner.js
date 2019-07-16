@@ -27,7 +27,8 @@ function setup()
   //player.setCollider("circle");
 
   player.jumpCount = 1;
-  wallGroup = level.getWallGroup();//populateWalls(level, wallGroup);
+
+  wallGroup = level.getWallGroup();
   var brickImg = loadImage("assets/walls/brick.png");
   var cryImg = loadImage("assets/walls/crystal.png");
   wallGroup.forEach(function(wall){
