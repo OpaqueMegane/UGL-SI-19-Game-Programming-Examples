@@ -15,14 +15,26 @@ function preload()
 
 function setup()
 {
+  var moveAnim = loadAnimation("assets/move/1.png","assets/move/2.png" ,"assets/move/3.png","assets/move/4.png","assets/move/5.png");
+  moveAnim.frameDelay = 5;
+
   createCanvas(600,400);
-  player = createSprite(150,50, 16,32);
-    //player.setCollider("circle", 0,12, 10,10);//,0,12,20,20);
+  player = createSprite(150,50, 16*2,32*2);
+  player.addAnimation("move", moveAnim);
+  player.scale = .5;
+  //player.debug = true;
+    player.setCollider("rectangle", 0,10,16/player.scale,32/player.scale);//,0,12,20,20);
   //player.setCollider("circle");
 
   player.jumpCount = 1;
   wallGroup = level.getWallGroup();//populateWalls(level, wallGroup);
+  var brickImg = loadImage("assets/walls/brick.png");
+  wallGroup.forEach(function(wall){
 
+    wall.addImage("xx", brickImg);
+    wall.scale = .5;
+    wall.immovable = true;
+  });
 
 
 chaserKiller = createSprite(0, 50, 64, 512)
@@ -81,14 +93,17 @@ function playerMovement()
 chaserKiller.position.x += baseSpeed + .1;
 
   var speed = 1;
+  player.animation.frameDelay = 5;
   if (keyDown('d')) {
-    player.velocity.x += .5;
+    player.velocity.x += .75;
+    player.animation.frameDelay = 3;
     moveAngle = 0;
   }
 
   if (keyDown('a')) {
     player.velocity.x -= 1.75;
     moveAngle = 180;
+    player.animation.frameDelay = 8;
   }
 
   if (keyWentDown('w')) {
@@ -110,18 +125,23 @@ chaserKiller.position.x += baseSpeed + .1;
 
 function onHitWall(player, wall)
 {
+  let pw = player.scale * player.width;
+  let ph = player.scale * player.height;
+  let ww = wall.scale * wall.width;
+  let wh = wall.scale * wall.height;
+
   let horizontallyOverlapping =
-    player.position.x + player.width/2 > wall.position.x - wall.width/2.0
+    player.position.x +  pw/2 > wall.position.x - ww/2.0
     &&
-    player.position.x - player.width/2 < wall.position.x + wall.width/2.0;
+    player.position.x - pw/2 < wall.position.x + ww/2.0;
 
   let standingOnPlatform =
-  wall.position.y - wall.height/2.0  >= player.position.y - player.height/2.0
+  wall.position.y - wh/2.0  >= player.position.y - ph/2.0
   &&
   horizontallyOverlapping;
 
   let hitCeiling =
-  wall.position.y + wall.height/2  <= player.position.y - player.height/2
+  wall.position.y + wh/2  <= player.position.y - ph/2
   &&
   horizontallyOverlapping;
 
