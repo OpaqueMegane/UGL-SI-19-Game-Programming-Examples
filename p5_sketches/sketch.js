@@ -8,9 +8,7 @@ var enemyGroup;
 var curMap;
 function preload()
 {
-  let url ='topdown_level.txt';
-  curMap = loadJSON('topdown_level.txt');
-    console.log( curMap + " xxx  " + curMap.w);
+  curMap = new TiledLevel('topdown_level.txt');
 }
 
 function setup() {
@@ -33,7 +31,7 @@ function setup() {
   player = createSprite(50,75, 32,32);
 
 
-  walls = new Group();
+  walls = curMap.getWallGroup();
 
   //walls.add(createSprite(150,125, 64,128));
   //walls.add(createSprite(250,125, 64,128));
@@ -43,7 +41,7 @@ function setup() {
     walls[i].immovable = true;
   }
 
-  loadWalls(curMap);
+
   createCanvas(800, 800);
 
   //
@@ -222,27 +220,4 @@ function playerDraw()
   {
     //player.position.y += .5*sin(millis()/200);
   }
-}
-
-function loadWalls(levelMap)
-{
-console.log(levelMap.w);
-
-  var TILE_SZ = 32;
-
-    for (var xi =0; xi < levelMap.w; xi++)
-    {
-
-      for (var yi = 0; yi < levelMap.h; yi++)
-      {
-        //
-        var mabyeTile = levelMap.tiles[xi][yi];
-
-        if (mabyeTile && mabyeTile.type === "WALL")//maybeTile != null && maybeTile != undefined)
-        {
-          //print(":!"+xi + ", " +yi);
-          walls.add(createSprite(xi * TILE_SZ, yi*TILE_SZ,TILE_SZ,TILE_SZ));
-        }
-      }
-    }
 }
