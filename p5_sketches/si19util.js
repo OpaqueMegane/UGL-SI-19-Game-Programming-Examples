@@ -27,7 +27,7 @@ class TiledLevel
   }
 
 
-  getGroupGeneric(role, tileType)
+  getGroupGeneric(role, swatchName)
   {
     var retGroup = new Group();
     var TILE_SZ = this.TILE_SZ;
@@ -40,7 +40,13 @@ class TiledLevel
 
           if (mabyeTile  )//maybeTile != null && maybeTile != undefined)
           {
-            if (mabyeTile.type === role && (!tileType || tileType === mabyeTile.tileType))
+            let tilesSwatchName = null;
+            if (swatchSource[mabyeTile.textureIdx])
+            {
+              tilesSwatchName = swatchSource[mabyeTile.textureIdx].name;
+            }
+
+            if (mabyeTile.type === role && (!swatchName || swatchName === tilesSwatchName))
             {
               var s = createSprite(xi * TILE_SZ, yi*TILE_SZ,TILE_SZ,TILE_SZ);
               s.levelSwatchIdx = mabyeTile.textureIdx;

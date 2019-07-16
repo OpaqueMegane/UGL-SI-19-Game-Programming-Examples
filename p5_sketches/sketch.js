@@ -1,7 +1,7 @@
 var player;
 var moveAngle = 0; //default to right
 
-var walls;
+var wallGroup;
 var collectibleGroup;
 var bulletGroup;
 var enemyGroup;
@@ -19,7 +19,7 @@ function setup() {
 
 
   useQuadTree(false);
-  collectibleGroup = curMap.getGroup("item 1");
+  collectibleGroup = curMap.getGroup("collectible");
   var collectibleAnim = loadAnimation("assets/item/1.png","assets/item/2.png");
 collectibleGroup.forEach(function(c){
   var cc = collectibleAnim.clone();
@@ -40,16 +40,21 @@ idleAnim.frameDelay = 7;
 player.addAnimation("idle", idleAnim);
 player.addAnimation("move", moveAnim);
 
-  walls = curMap.getWallGroup();
+  wallGroup = curMap.getWallGroup();
 
-  var brickImg = loadImage("assets/walls/brick.png");
-  walls.forEach(function(wall){
+  var brickWallImg = loadImage("assets/walls/brick.png");
 
-    wall.addImage("xx", brickImg);
-    wall.scale = .5;
+  wallGroup.forEach(
+    function(wall){
+      wall.addImage(brickWallImg);
+      wall.scale = .5;
+    }
+  );
+/*
+wall.scale = .5;
+  wall.scale = .5;
     wall.immovable = true;
-  });
-
+    */
 
 
 
@@ -84,7 +89,7 @@ function draw() {
 
   //playerDraw();
  playerMovement();
-  player.collide(walls);
+  player.collide(wallGroup);
 
 
   if (keyWentDown('h')) {
