@@ -1,6 +1,6 @@
 var player;
 
-var teleporterGroup;
+var itemGroup;
 var wallGroup;
 var level;
 
@@ -29,15 +29,24 @@ function setup()
   player.jumpCount = 1;
   wallGroup = level.getWallGroup();//populateWalls(level, wallGroup);
   var brickImg = loadImage("assets/walls/brick.png");
+  var cryImg = loadImage("assets/walls/crystal.png");
   wallGroup.forEach(function(wall){
-
-    wall.addImage("xx", brickImg);
+    //console.log(wall.levelSwatchIdx );
+    wall.addImage("xx", wall.levelSwatchIdx === 0 ?  cryImg : brickImg);
     wall.scale = .5;
     wall.immovable = true;
   });
 
+itemGroup = level.getGroup();
+var collectibleAnim = loadAnimation("assets/item/1.png","assets/item/2.png");
+itemGroup.forEach(function(c){
 
-chaserKiller = createSprite(0, 50, 64, 512)
+c.addAnimation("xxx", collectibleAnim);
+c.scale = .5;
+//c.animation.setCycles(floor(random(0, 120))); ///hack to randomize animation
+})
+
+chaserKiller = createSprite(0, 50, 16, 512);
   //teleporterGroup.add(createTeleporter(500, 75, 50, 50, 50, 350));
 camera.position.y = 100;
 }
@@ -64,11 +73,14 @@ function draw()
     camera.position.x = player.position.x;
 
     chaserKiller.overlap(player, function(c,p){ alive = false;});
+    player.overlap(itemGroup, function(p,i){i.remove();});
 
     if (player.position.y > height + 100)
     {
       alive = false;
     }
+    chaserKiller.shapeColor = color(floor(millis()/10) % 4 == 0 ? 255 : 0);
+chaserKiller.scale = random(.8,2);
   }
   else
   {
@@ -77,9 +89,9 @@ function draw()
       textAlign(CENTER, CENTER);
       textSize(48);
       fill(255);
+
       text("jeux\nau vert", width/2, height/2);
   }
-  //camera.position.y = player.position.y;
 }
 
 
@@ -87,10 +99,10 @@ function draw()
 function playerMovement()
 {
 
-  var baseSpeed = 2;
+  var baseSpeed = 1.75;
   player.velocity.x = baseSpeed;
 
-chaserKiller.position.x += baseSpeed + .1;
+chaserKiller.position.x += baseSpeed + .25;
 
   var speed = 1;
   player.animation.frameDelay = 5;
@@ -101,7 +113,7 @@ chaserKiller.position.x += baseSpeed + .1;
   }
 
   if (keyDown('a')) {
-    player.velocity.x -= 1.75;
+    player.velocity.x -= 1.25;
     moveAngle = 180;
     player.animation.frameDelay = 8;
   }

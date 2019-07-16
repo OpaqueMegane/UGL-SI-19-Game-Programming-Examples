@@ -26,54 +26,46 @@ class TiledLevel
     return ret;
   }
 
-  getGroup(tileId)
+
+  getGroupGeneric(role, tileType)
   {
-      var retGroup = new Group();
-
-      var TILE_SZ = this.TILE_SZ;
-
-        for (var xi =0; xi < this.w; xi++)
+    var retGroup = new Group();
+    var TILE_SZ = this.TILE_SZ;
+    var swatchSource = role === "WALL" ? this.swatches.wall : this.swatches.other;
+      for (var xi =0; xi < this.w; xi++)
+      {
+        for (var yi = 0; yi < this.h; yi++)
         {
-          console.log("xi" + xi);
-          for (var yi = 0; yi < this.h; yi++)
-          {
-            var mabyeTile = this.tiles[xi][yi];
+          var mabyeTile = this.tiles[xi][yi];
 
-            if (mabyeTile  )//maybeTile != null && maybeTile != undefined)
+          if (mabyeTile  )//maybeTile != null && maybeTile != undefined)
+          {
+            if (mabyeTile.type === role && (!tileType || tileType === mabyeTile.tileType))
             {
-              console.log(mabyeTile.type);
-              if (mabyeTile.type === "DECO")
-              {
-                retGroup.add(createSprite(xi * TILE_SZ, yi*TILE_SZ,TILE_SZ,TILE_SZ));
-              }
+              var s = createSprite(xi * TILE_SZ, yi*TILE_SZ,TILE_SZ,TILE_SZ);
+              s.levelSwatchIdx = mabyeTile.textureIdx;
+              s.levelCustomData = mabyeTile.custom;
+              //s.levelSwatch = swatchSource[mabyeTile.textureIdx];
+              retGroup.add(s);
             }
           }
         }
-        return retGroup;
+      }
+      return retGroup;
+  }
+
+  getGroup(tileType)
+  {
+
+    return this.getGroupGeneric("DECO", tileType);
+
+
 
   }
 
   getWallGroup()
   {
-    var wallGroup = new Group();
-    var TILE_SZ = this.TILE_SZ;
-
-      for (var xi =0; xi < this.w; xi++)
-      {
-
-        for (var yi = 0; yi < this.h; yi++)
-        {
-          //
-          var mabyeTile = this.tiles[xi][yi];
-
-          if (mabyeTile && mabyeTile.type === "WALL")//maybeTile != null && maybeTile != undefined)
-          {
-            //print(":!"+xi + ", " +yi);
-            wallGroup.add(createSprite(xi * TILE_SZ, yi*TILE_SZ,TILE_SZ,TILE_SZ));
-          }
-        }
-      }
-      return wallGroup;
+      return this.getGroupGeneric("WALL", null);
     }
 
     addSideWalls(wallGroup)
