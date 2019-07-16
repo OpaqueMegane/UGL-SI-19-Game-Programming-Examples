@@ -55,7 +55,7 @@ class TiledLevel
 
   getWallGroup()
   {
-    wallGroup = new Group();
+    var wallGroup = new Group();
     var TILE_SZ = this.TILE_SZ;
 
       for (var xi =0; xi < this.w; xi++)
