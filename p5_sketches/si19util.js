@@ -22,8 +22,19 @@ class TiledLevel
 
   gridToPixelPosition(gridX, gridY)
   {
-    var ret = createVector((gridX + .5) * this.TILE_SZ,(gridY + .5) * this.TILE_SZ);
+    var ret = createVector(this.gridToPixelPositionX(gridX), this.gridToPixelPositionY(gridY));
     return ret;
+  }
+
+  gridToPixelPositionX(gridX)
+  {
+    return (gridX + .5) * this.TILE_SZ;
+    return ret;
+  }
+
+  gridToPixelPositionY(gridY)
+  {
+    return (gridY + .5) * this.TILE_SZ;
   }
 
 
@@ -52,6 +63,7 @@ class TiledLevel
             {
               var s = createSprite(xi * TILE_SZ, yi*TILE_SZ,TILE_SZ,TILE_SZ);
               s.tileSwatchIdx = mabyeTile.tileSwatchIdx;
+              s.tileSwatchName = tilesSwatchName;
               if(mabyeTile.tileCustomData)
               {
                 s.tileCustomData = mabyeTile.tileCustomData;
