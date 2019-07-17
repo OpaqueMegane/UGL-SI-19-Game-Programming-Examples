@@ -7,6 +7,7 @@ var level;
 var chaserKiller;
 
 var alive = true;
+var beatGame = false;
 
 function preload()
 {
@@ -17,35 +18,60 @@ function setup()
 {
   var moveAnim = loadAnimation("assets/move/1.png","assets/move/2.png" ,"assets/move/3.png","assets/move/4.png","assets/move/5.png");
   moveAnim.frameDelay = 5;
-
+  //pixelDensity(4.0);
   createCanvas(600,400);
   player = createSprite(150,50, 16*2,32*2);
+  //player.position.x = level.gridToPixelPositionX(182);
+  //player.position.y = level.gridToPixelPositionY(5);
+
   player.addAnimation("move", moveAnim);
   player.scale = .5;
   //player.debug = true;
     player.setCollider("rectangle", 0,10,16/player.scale,32/player.scale);//,0,12,20,20);
-  //player.setCollider("circle");
 
   player.jumpCount = 1;
 
   wallGroup = level.getWallGroup();
-  var brickImg = loadImage("assets/walls/brick.png");
-  var cryImg = loadImage("assets/walls/crystal.png");
-  wallGroup.forEach(function(wall){
-    //console.log(wall.levelSwatchIdx );
-    wall.addImage("xx", wall.levelSwatchIdx === 0 ?  cryImg : brickImg);
-    wall.scale = .5;
-    wall.immovable = true;
-  });
+
+  var brickBlockImg = loadImage("assets/walls/brick.png");
+  var crystalBlockImg = loadImage("assets/walls/crystal.png");
+  var tigerBlockImg = loadImage("assets/walls/tiger.png");
+
+  var wallImgs = [brickBlockImg, crystalBlockImg, tigerBlockImg];
+
+  wallGroup.forEach(
+    function(wall) {
+      if (wall.tileSwatchIdx == 0)
+      {
+        wall.addImage(brickBlockImg);
+      }
+      else if (wall.tileSwatchIdx == 1)
+      {
+        wall.addImage(crystalBlockImg);
+      }
+      else
+      {
+        wall.addImage(tigerBlockImg);
+      }
+      wall.scale = .5;
+      wall.immovable = true;
+    }
+  );
+
 
 itemGroup = level.getGroup();
-var collectibleAnim = loadAnimation("assets/item/1.png","assets/item/2.png");
-itemGroup.forEach(function(c){
-
-c.addAnimation("xxx", collectibleAnim);
-c.scale = .5;
-//c.animation.setCycles(floor(random(0, 120))); ///hack to randomize animation
-})
+var normalCollectibleAnim =  loadAnimation("assets/item/1.png","assets/item/2.png");
+var winningCollectibleAnim = loadAnimation("assets/triangle/1.png","assets/triangle/2.png");
+itemGroup.forEach(function(item) {
+  if (item.tileCustomData === "win_item")
+  {
+    item.addAnimation("main", winningCollectibleAnim);
+  }
+  else {
+    item.addAnimation("main", normalCollectibleAnim);
+  }
+  item.scale = .5;
+});
 
 chaserKiller = createSprite(0, 50, 16, 512);
   //teleporterGroup.add(createTeleporter(500, 75, 50, 50, 50, 350));
@@ -74,7 +100,7 @@ function draw()
     camera.position.x = player.position.x;
 
     chaserKiller.overlap(player, function(c,p){ alive = false;});
-    player.overlap(itemGroup, function(p,i){i.remove();});
+    player.overlap(itemGroup, playerOverlapsItem);
 
     if (player.position.y > height + 100)
     {
@@ -86,16 +112,30 @@ chaserKiller.scale = random(.8,2);
   else
   {
       camera.off();
-      background("#55AA33");
+background(0);
       textAlign(CENTER, CENTER);
       textSize(48);
       fill(255);
+      if (beatGame)
+      {
+          text("You win!", width/2, height/2);
+      }
+      else {
+        text("You lose!", width/2, height/2);
+      }
 
-      text("jeux\nau vert", width/2, height/2);
   }
 }
 
-
+function playerOverlapsItem(player, item)
+{
+  if (item.tileCustomData === "win_item")
+  {
+    beatGame = true;
+    alive = false;
+  }
+  item.remove();
+}
 
 function playerMovement()
 {

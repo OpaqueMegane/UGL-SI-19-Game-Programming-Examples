@@ -40,7 +40,7 @@
       },
       {
         "tileType": "WALL",
-        "tileSwatchIdx": 0,
+        "tileSwatchIdx": 2,
         "tileCustomData": ""
       }
     ],
@@ -82,7 +82,7 @@
       null,
       {
         "tileType": "WALL",
-        "tileSwatchIdx": 0,
+        "tileSwatchIdx": 2,
         "tileCustomData": ""
       }
     ],
@@ -124,7 +124,7 @@
       null,
       {
         "tileType": "WALL",
-        "tileSwatchIdx": 0,
+        "tileSwatchIdx": 2,
         "tileCustomData": ""
       }
     ],
@@ -166,49 +166,7 @@
       null,
       {
         "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      }
-    ],
-    [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      }
-    ],
-    [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      }
-    ],
-    [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 0,
+        "tileSwatchIdx": 2,
         "tileCustomData": ""
       }
     ],
@@ -234,13 +192,59 @@
       null,
       null,
       {
-        "tileType": "WALL",
+        "tileType": "OTHER",
         "tileSwatchIdx": 0,
         "tileCustomData": ""
       },
       {
         "tileType": "WALL",
         "tileSwatchIdx": 0,
+        "tileCustomData": ""
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 2,
+        "tileCustomData": ""
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 2,
+        "tileCustomData": ""
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 2,
+        "tileCustomData": ""
+      },
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 2,
         "tileCustomData": ""
       }
     ],
@@ -274,6 +278,20 @@
       null,
       {
         "tileType": "WALL",
+        "tileSwatchIdx": 2,
+        "tileCustomData": ""
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "tileType": "WALL",
         "tileSwatchIdx": 0,
         "tileCustomData": ""
       }
@@ -282,6 +300,274 @@
       null,
       null,
       null,
+      null,
+      null,
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 1,
+        "tileCustomData": ""
+      },
+      {
+        "tileType": "OTHER",
+        "tileSwatchIdx": 0,
+        "tileCustomData": ""
+      },
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 0,
+        "tileCustomData": ""
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 2,
+        "tileCustomData": ""
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 0,
+        "tileCustomData": ""
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 0,
+        "tileCustomData": ""
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 1,
+        "tileCustomData": ""
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 2,
+        "tileCustomData": ""
+      },
+      null,
+      null,
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 0,
+        "tileCustomData": ""
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      {
+        "tileType": "OTHER",
+        "tileSwatchIdx": 0,
+        "tileCustomData": ""
+      },
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 0,
+        "tileCustomData": ""
+      },
+      null,
+      null,
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 0,
+        "tileCustomData": ""
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 2,
+        "tileCustomData": ""
+      },
+      null,
+      null,
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 0,
+        "tileCustomData": ""
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 0,
+        "tileCustomData": ""
+      },
+      null,
+      null,
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 0,
+        "tileCustomData": ""
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 0,
+        "tileCustomData": ""
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 0,
+        "tileCustomData": ""
+      },
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 2,
+        "tileCustomData": ""
+      }
+    ],
+    [
+      null,
+      null,
+      {
+        "tileType": "OTHER",
+        "tileSwatchIdx": 0,
+        "tileCustomData": ""
+      },
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 0,
+        "tileCustomData": ""
+      },
+      null,
+      null,
+      null,
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 0,
+        "tileCustomData": ""
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 0,
+        "tileCustomData": ""
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 0,
+        "tileCustomData": ""
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 0,
+        "tileCustomData": ""
+      }
+    ],
+    [
+      null,
+      {
+        "tileType": "OTHER",
+        "tileSwatchIdx": 0,
+        "tileCustomData": ""
+      },
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 0,
+        "tileCustomData": ""
+      },
       null,
       null,
       null,
@@ -303,6 +589,150 @@
         "tileSwatchIdx": 0,
         "tileCustomData": ""
       },
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 0,
+        "tileCustomData": ""
+      },
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 0,
+        "tileCustomData": ""
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 0,
+        "tileCustomData": ""
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 0,
+        "tileCustomData": ""
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 0,
+        "tileCustomData": ""
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 0,
+        "tileCustomData": ""
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 0,
+        "tileCustomData": ""
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 0,
+        "tileCustomData": ""
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 0,
+        "tileCustomData": ""
+      },
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 0,
+        "tileCustomData": ""
+      },
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 0,
+        "tileCustomData": ""
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       {
         "tileType": "OTHER",
         "tileSwatchIdx": 0,
@@ -375,432 +805,6 @@
       null,
       null,
       null,
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      },
-      null,
-      null,
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      }
-    ],
-    [
-      null,
-      null,
-      null,
-      {
-        "tileType": "OTHER",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      },
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      },
-      null,
-      null,
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      }
-    ],
-    [
-      null,
-      null,
-      null,
-      null,
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      },
-      null,
-      null,
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      }
-    ],
-    [
-      null,
-      null,
-      null,
-      null,
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      },
-      null,
-      null,
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      }
-    ],
-    [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      }
-    ],
-    [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      },
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      }
-    ],
-    [
-      null,
-      null,
-      {
-        "tileType": "OTHER",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      },
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      },
-      null,
-      null,
-      null,
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      }
-    ],
-    [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      }
-    ],
-    [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      }
-    ],
-    [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      }
-    ],
-    [
-      null,
-      {
-        "tileType": "OTHER",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      },
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      },
-      null,
-      null,
-      null,
-      null,
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      }
-    ],
-    [
-      null,
-      null,
-      null,
-      null,
-      null,
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      },
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      },
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      }
-    ],
-    [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      }
-    ],
-    [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      }
-    ],
-    [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      }
-    ],
-    [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      }
-    ],
-    [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      }
-    ],
-    [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      }
-    ],
-    [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      null,
-      null,
-      null,
-      null,
-      null,
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      },
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      },
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      }
-    ],
-    [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      {
-        "tileType": "OTHER",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      },
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      }
-    ],
-    [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      }
-    ],
-    [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      }
-    ],
-    [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      }
-    ],
-    [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      }
-    ],
-    [
-      null,
-      null,
-      null,
-      null,
       null,
       {
         "tileType": "WALL",
@@ -2993,6 +2997,30 @@
       null,
       null,
       null,
+      null,
+      {
+        "tileType": "WALL",
+        "tileSwatchIdx": 0,
+        "tileCustomData": ""
+      }
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
       {
         "tileType": "WALL",
         "tileSwatchIdx": 1,
@@ -3032,42 +3060,6 @@
       },
       {
         "tileType": "WALL",
-        "tileSwatchIdx": 0,
-        "tileCustomData": ""
-      }
-    ],
-    [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      null,
-      null,
-      null,
-      null,
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 1,
-        "tileCustomData": ""
-      },
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 1,
-        "tileCustomData": ""
-      },
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 1,
-        "tileCustomData": ""
-      },
-      {
-        "tileType": "WALL",
         "tileSwatchIdx": 1,
         "tileCustomData": ""
       }
@@ -3086,11 +3078,7 @@
       null,
       null,
       null,
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 1,
-        "tileCustomData": ""
-      },
+      null,
       {
         "tileType": "WALL",
         "tileSwatchIdx": 1,
@@ -3125,11 +3113,7 @@
     [
       null,
       null,
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 1,
-        "tileCustomData": ""
-      },
+      null,
       {
         "tileType": "WALL",
         "tileSwatchIdx": 1,
@@ -3168,11 +3152,7 @@
     ],
     [
       null,
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 1,
-        "tileCustomData": ""
-      },
+      null,
       {
         "tileType": "WALL",
         "tileSwatchIdx": 1,
@@ -3215,11 +3195,7 @@
       null
     ],
     [
-      {
-        "tileType": "WALL",
-        "tileSwatchIdx": 1,
-        "tileCustomData": ""
-      },
+      null,
       {
         "tileType": "WALL",
         "tileSwatchIdx": 1,
@@ -3258,9 +3234,9 @@
     ],
     [
       {
-        "tileType": "WALL",
-        "tileSwatchIdx": 1,
-        "tileCustomData": ""
+        "tileType": "OTHER",
+        "tileSwatchIdx": 0,
+        "tileCustomData": "win_item"
       },
       {
         "tileType": "WALL",
@@ -3446,14 +3422,14 @@
             ]
           },
           "_array": [
-            0.9019607843137255,
-            0.09803921568627451,
+            0.23529411764705882,
+            0.7058823529411765,
             0.29411764705882354,
             1
           ],
           "levels": [
-            230,
-            25,
+            60,
+            180,
             75,
             255
           ]
@@ -3485,21 +3461,21 @@
             ]
           },
           "_array": [
-            0.23529411764705882,
-            0.7058823529411765,
+            0.9019607843137255,
+            0.09803921568627451,
             0.29411764705882354,
             1
           ],
           "levels": [
-            60,
-            180,
+            230,
+            25,
             75,
             255
           ]
         }
       },
       {
-        "name": "teleport src",
+        "name": "teleporter",
         "image": null,
         "color": {
           "mode": "rgb",
@@ -3533,45 +3509,6 @@
             255,
             225,
             25,
-            255
-          ]
-        }
-      },
-      {
-        "name": "teleport dest",
-        "image": null,
-        "color": {
-          "mode": "rgb",
-          "maxes": {
-            "rgb": [
-              255,
-              255,
-              255,
-              255
-            ],
-            "hsb": [
-              360,
-              100,
-              100,
-              1
-            ],
-            "hsl": [
-              360,
-              100,
-              100,
-              1
-            ]
-          },
-          "_array": [
-            0.2627450980392157,
-            0.38823529411764707,
-            0.8470588235294118,
-            1
-          ],
-          "levels": [
-            67,
-            99,
-            216,
             255
           ]
         }
