@@ -149,3 +149,29 @@ function moveTowards(val, target, maxSpeed)
   }
   return val;
 }
+
+function loadAnimFromFolder(folder, nFrames)
+{
+  var args = new Array(nFrames);
+  for (var i = 0; i < nFrames; i++)
+  {
+    var s = folder + "/" + (i+1) + ".png";
+    args[i] = s;
+  }
+  return loadAnimation.apply(this, args);//thanx 2 http://2ality.com/2011/08/spreading.html
+}
+
+function angleTowards(startPosition, destPosition)
+{
+  return angleTowardsXY(
+    startPosition.x, startPosition.y,
+    destPosition.x, destPosition.y
+  );
+}
+
+function angleTowardsXY(startX, startY, destX, destY)
+{
+  let x = (destX-startX);
+  let y = (destY-startY);
+  return Math.atan2(y, x) * 180 / Math.PI;
+}

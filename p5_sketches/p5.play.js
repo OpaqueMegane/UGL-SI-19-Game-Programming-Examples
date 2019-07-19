@@ -913,6 +913,15 @@ function Sprite(pInst, _x, _y, _w, _h) {
   this.restitution = 1;
 
   /**
+  * true if the sprite is within the bounds of the canvas
+  *
+  * @property onScreen
+  * @type {Boolean}
+  * @default true;
+  */
+  this.onScreen = true;
+
+  /**
   * Rotation in degrees of the visual element (image or animation)
   * Note: this is not the movement's direction, see getDirection.
   *
@@ -1619,12 +1628,12 @@ function Sprite(pInst, _x, _y, _w, _h) {
     //don't draw offscreen sprites (rough)
     let sx = this.position.x - camera.position.x + width/2;
     let sy = this.position.y - camera.position.y + height/2;
-    let onScreen =
+    this.onScreen =
       (sx+ this.width/2 > 0 && sx - this.width / 2 < width)
       &&
       (sy + this.height/2 > 0 && sy - this.height / 2 < height);
 
-    if (onScreen && this.visible && !this.removed)
+    if (this.onScreen && this.visible && !this.removed)
     {
       push();
       colorMode(RGB);

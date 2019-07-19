@@ -1,11 +1,11 @@
 var player;
 var moveAngle = 0; //default to right
 
-var walls;
+var wallGroup;
 var collectibles;
 var bulletGroup;
 var enemyGroup;
-var curMap;
+var level;
 var enemyAnimation;
 var explosionAnimation;
 var attackFlareAnim;
@@ -14,7 +14,7 @@ var bulletAnim;
 var wall1;
 function preload()
 {
-  curMap = loadJSON('topdown_dungeon_level.txt');
+  level = new TiledLevel('topdown_dungeon_level.txt');
   enemyAnimation = loadAnimation("imgs/enemy1/1.png","imgs/enemy1/2.png","imgs/enemy1/3.png","imgs/enemy1/2.png");
 
   explosionAnimation = loadAnimFromFolder("imgs/explosion", 5);
@@ -71,21 +71,16 @@ idleAnim.frameDelay = 16;
   player.addAnimation("idle", idleAnim);
     player.addAnimation("attack", attackAnim);
 
+level.TILE_SZ = 80;
+  wallGroup = level.getWallGroup();
+  wallGroup.forEach(
+    function(wall) {
+      wall.addImage(wall1);
+    }
+  );
 
-  walls = new Group();
+  createCanvas(16 * 90, 9 * 90);
 
-  //walls.add(createSprite(150,125, 64,128));
-  //walls.add(createSprite(250,125, 64,128));
-  //walls.add(createSprite(250,325, 64,64));
-  for(var i =0; i < walls.length; i++)
-  {
-    walls[i].immovable = true;
-  }
-
-  loadWalls(curMap);
-  createCanvas(800, 600);
-
-  //
 }
 
 function createEnemy(xPos, yPos)
@@ -119,19 +114,19 @@ function draw() {
  playerMovement();
   if(wallCollisionsOn)
   {
-  player.collide(walls);
+  player.collide(wallGroup);
   }
   if (keyWentDown('c'))
   {
     wallCollisionsOn = !wallCollisionsOn;
   }
   enemyGroup.collide(enemyGroup);
-  enemyGroup.collide(walls);
+  enemyGroup.collide(wallGroup);
 
 
 
   blendMode(MULTIPLY);
-  //bulletGroup.bounce(walls);//, function(b, w){b.remove();});
+  //bulletGroup.bounce(wallGroup);//, function(b, w){b.remove();});
 
 
 
@@ -159,9 +154,13 @@ function updateEnemies()
     {
       enemy.timer = random(20, 80);
       enemy.moving = !enemy.moving;
-      if (enemy.moving)
+      if (enemy.moving && enemy.onScreen)
       {
-        enemy.setSpeed(1, 90 * random(0,360));
+        //towards player =
+
+        var angleTowardsPlayer = angleTowards(enemy.position,  player.position);
+
+        enemy.setSpeed(2, angleTowardsPlayer);//random(0,360));
       }
       else
       {
@@ -211,7 +210,7 @@ function playerMovement()
     this.setTimeout(function(){
 
       var freshBullet = createSprite(player.position.x, player.position.y, 8, 8);
-      freshBullet.setSpeed(5,moveAngle);
+      freshBullet.setSpeed(8,moveAngle);
       freshBullet.scale =.5;
       bulletGroup.add(freshBullet);
       freshBullet.life = 120;
@@ -219,7 +218,7 @@ function playerMovement()
     },150);
   }
   bulletGroup.overlap(enemyGroup, bulletOverlapsEnemy);
-  bulletGroup.overlap(walls, onBulletHitWall);
+  bulletGroup.overlap(wallGroup, onBulletHitWall);
 var attackAnimIsPlaying = player.getAnimationLabel() === "attack" && player.animation.playing;
 
 
@@ -243,12 +242,23 @@ var attackAnimIsPlaying = player.getAnimationLabel() === "attack" && player.anim
   if (keyDown('w')) {
     player.position.y = player.position.y - speed;
     moveAngle = 270;
+    if (keyDown('a')) {
+      moveAngle -= 45;
+    }
+    else if (keyDown('d')) {
+      moveAngle += 45;
+    }
       moving = true;
-  }
-
-    if (keyDown('s')) {
+  } else if (keyDown('s')) {
     player.position.y = player.position.y + speed;
       moveAngle = 90;
+      if (keyDown('a')) {
+        moveAngle += 45;
+      }
+      else if (keyDown('d')) {
+        moveAngle -= 45;
+      }
+
         moving = true;
   }
 
@@ -307,41 +317,9 @@ function playerDraw()
   }
 }
 
-function loadWalls(levelMap)
-{
 
 
-  var TILE_SZ = 74;
 
-    for (var xi =0; xi < levelMap.w; xi++)
-    {
-
-      for (var yi = 0; yi < levelMap.h; yi++)
-      {
-        //
-        var mabyeTile = levelMap.tiles[xi][yi];
-
-        if (mabyeTile && mabyeTile.type === "WALL")//maybeTile != null && maybeTile != undefined)
-        {
-          //print(":!"+xi + ", " +yi);
-          let newWall = createSprite(xi * TILE_SZ, yi*TILE_SZ,TILE_SZ,TILE_SZ);
-          walls.add(newWall);
-          newWall.addImage("xxx", wall1);
-        }
-      }
-    }
-}
-
-function loadAnimFromFolder(folder, nFrames)
-{
-  var args = new Array(nFrames);
-  for (var i = 0; i < nFrames; i++)
-  {
-    var s = folder + "/" + (i+1) + ".png";
-    args[i] = s;
-  }
-  return loadAnimation.apply(this, args);//thanx 2 http://2ality.com/2011/08/spreading.html
-}
 
 
 /*
