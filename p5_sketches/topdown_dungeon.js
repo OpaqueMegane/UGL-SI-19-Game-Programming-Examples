@@ -148,23 +148,28 @@ function updateEnemies()
 {
   for (var i = 0; i < enemyGroup.length; i++)
   {
+
     var enemy = enemyGroup[i];
+
+
     enemy.timer--;
     if (enemy.timer <= 0)
     {
-      enemy.timer = random(20, 80);
+      //enemy.timer = random(20, 80);
       enemy.moving = !enemy.moving;
       if (enemy.moving && enemy.onScreen)
       {
         //towards player =
-
         var angleTowardsPlayer = angleTowards(enemy.position,  player.position);
+        enemy.setSpeed(8, angleTowardsPlayer);//random(0,360));
 
-        enemy.setSpeed(2, angleTowardsPlayer);//random(0,360));
+
+        enemy.timer = 15;
       }
       else
       {
         enemy.setSpeed(0);
+        enemy.timer = random(60, 180);
       }
     }
   }
