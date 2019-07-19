@@ -1615,7 +1615,16 @@ function Sprite(pInst, _x, _y, _w, _h) {
    */
   this.display = function()
   {
-    if (this.visible && !this.removed)
+
+    //don't draw offscreen sprites (rough)
+    let sx = this.position.x - camera.position.x + width/2;
+    let sy = this.position.y - camera.position.y + height/2;
+    let onScreen =
+      (sx+ this.width/2 > 0 && sx - this.width / 2 < width)
+      &&
+      (sy + this.height/2 > 0 && sy - this.height / 2 < height);
+
+    if (onScreen && this.visible && !this.removed)
     {
       push();
       colorMode(RGB);
@@ -2229,18 +2238,15 @@ function Sprite(pInst, _x, _y, _w, _h) {
         var displacement;
         var other = others[i];
 
+        //(Alex)Is this really what's desired?
         if(this.collider === undefined)
           this.setDefaultCollider();
 
         if(other.collider === undefined)
           other.setDefaultCollider();
 
-        /*
-        if(this.colliderType=="default" && animations[currentAnimation]!=null)
-        {
-          print("busted");
-          return false;
-        }*/
+
+  		//want a way to disable the collider here?
         if(this.collider !== undefined && other.collider !== undefined)
         {
         if(type === 'overlap') {
@@ -2760,10 +2766,11 @@ function Group() {
   */
   array.draw = function() {
 
+    //TODO: Only sort when a new sprite is added(?)
     //sort by depth
-    this.sort(function(a, b) {
+    /*this.sort(function(a, b) {
       return a.depth - b.depth;
-    });
+    });*/
 
     for(var i = 0; i<this.size(); i++)
     {
@@ -3625,7 +3632,13 @@ function Animation(pInst) {
       {
         //if next frame is too high
         if (frame<this.images.length-1)
+        {
           frame++;
+        }
+        else {
+          this.playing = false;
+        }
+
       }
     }
 
@@ -3661,6 +3674,15 @@ function Animation(pInst) {
   this.rewind = function() {
     frame = 0;
   };
+
+  /**
+  *Set
+  *@method setCycles
+  */
+  this.setCycles = function(cyclesNew)
+  {
+    cycles = cyclesNew;
+  }
 
   /**
   * Changes the current frame.
