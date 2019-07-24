@@ -37,11 +37,8 @@ class TiledLevel
     return (gridY + .5) * this.TILE_SZ;
   }
 
-
-  getGroupGeneric(role, swatchName)
+  createTiles(role, swatchName, createFunction)
   {
-
-    var retGroup = new Group();
     var TILE_SZ = this.TILE_SZ;
     //console.log("---"+this.swatches["WALL"]);
     var swatchSource = this.swatches[role];
@@ -61,20 +58,36 @@ class TiledLevel
 
             if (mabyeTile.tileType === role && (!swatchName || swatchName === tilesSwatchName))
             {
-              var s = createSprite(xi * TILE_SZ, yi*TILE_SZ,TILE_SZ,TILE_SZ);
-              s.tileSwatchIdx = mabyeTile.tileSwatchIdx;
-              s.tileSwatchName = tilesSwatchName;
-              if(mabyeTile.tileCustomData)
-              {
-                s.tileCustomData = mabyeTile.tileCustomData;
-              }
 
-              //s.levelSwatch = swatchSource[mabyeTile.textureIdx];
-              retGroup.add(s);
+              var tileInfo = {
+                tileSwatchIdx : mabyeTile.tileSwatchIdx,
+                tileSwatchName : tilesSwatchName,
+                tileCustomData : mabyeTile.tileCustomData
+              };
+
+              createFunction(xi * TILE_SZ, yi*TILE_SZ, TILE_SZ, TILE_SZ, tileInfo);
+
             }
           }
         }
       }
+  }
+
+  getGroupGeneric(role, swatchName)
+  {
+    var retGroup = new Group();
+    this.createTiles(role, swatchName, function(x,y,w,h, tileInfo){
+
+      var s = createSprite(x,y,w,h);
+      s.tileSwatchIdx = tileInfo.tileSwatchIdx;
+      s.tileSwatchName = tileInfo.tilesSwatchName;
+      if(tileInfo.tileCustomData)
+      {
+        s.tileCustomData = tileInfo.tileCustomData;
+      }
+
+      retGroup.add(s);
+    });
       return retGroup;
   }
 
