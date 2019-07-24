@@ -68,16 +68,16 @@ function setup()
 {
   createCanvas(1200,600);
 
-levelMap.TILE_SZ = 50;
-wallGroup = levelMap.getWallGroup();
-levelMap.addSideWalls(wallGroup);
-enemyGroup = levelMap.getGroup();
+  levelMap.TILE_SZ = 50;
+  wallGroup = levelMap.getWallGroup();
+  levelMap.addSideWalls(wallGroup);
+  enemyGroup = levelMap.getGroup();
 
 
   wallGroup.forEach(function(wall)
   {
     wall.immovable= true;
-    wall.shapeColor = color(128)
+    wall.shapeColor = color(128);
   });
 
   enemyGroup.forEach(function(enemy)
