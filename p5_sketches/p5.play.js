@@ -2664,6 +2664,7 @@ function Group() {
       array.push(s);
       s.groups.push(this);
     }
+    resortByDepth();
   };
 
   /**
@@ -2777,15 +2778,22 @@ function Group() {
 
     //TODO: Only sort when a new sprite is added(?)
     //sort by depth
-    /*this.sort(function(a, b) {
-      return a.depth - b.depth;
-    });*/
+    /*
+    resortByDepth();
+    //*/
 
     for(var i = 0; i<this.size(); i++)
     {
       this.get(i).display();
     }
   };
+
+  function resortByDepth()
+  {
+      array.sort(function(a, b) {
+      return a.depth - b.depth;
+    });
+  }
 
   //internal use
   function virtEquals(obj, other) {
